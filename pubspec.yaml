@@ -1,0 +1,95 @@
+name: flutter_app
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  #网络
+  dio: ^3.0.7
+
+  #  webview
+  webview_flutter: ^1.0.7
+  webview_cookie_manager: ^1.0.5
+  #状态管理
+  #  provider: ^3.2.0
+  flutter_bloc: ^6.1.1
+
+  #工具类
+  common_utils: ^1.2.1
+
+  #  图片
+  cached_network_image: ^2.0.0-rc.1
+  #如果package get报错,改成下面的版本
+  #  cached_network_image: ^2.0.0-rc.1
+
+  #  banner
+  flutter_swiper: ^1.1.6
+
+  #标签加载,类似html
+  flutter_html: ^0.11.0
+
+  #语言包
+  flutter_localizations:
+    sdk: flutter
+  #相机相册-注销,导致打包失败
+  #  image_picker: ^0.6.3+1
+
+  #包信息
+  package_info: ^0.4.0+17
+
+  url_launcher: ^5.4.5
+
+  #视频播放切勿改动
+  #  chewie: ^0.9.8+1 项目中已把chewie的源码拿出来改动过了,请不要再次dependencie
+  video_player: ^0.10.10
+
+  #shared_preferences插件
+  shared_preferences: ^0.5.12+4
+
+  screen: ^0.0.5
+
+  open_iconic_flutter: ^0.3.0
+
+  english_words: ^3.1.5
+
+  #下拉菜单
+  dropdown_menu: ^1.1.1
+
+  #  瀑布流
+  flutter_staggered_grid_view: ^0.3.2
+
+  flutter_screenutil: ^4.0.2+5
+
+  #二维码
+  qr_flutter: ^3.2.0
+  intl: ^0.16.1
+  #轮播
+  carousel_slider: ^3.0.0
+  #高性能json序列化
+  json_annotation: ^3.1.1
+
+  #  对话框
+  bot_toast: 3.0.5
+  event_bus: 1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #  json序列化需要的库，只需要dev
+  build_runner: ^1.0.0
+  json_serializable: ^3.2.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/mine/
+    - assets/json/home_data_json.json
